@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(83, 86, 99);
+}
+}
+
+.container {
+	width: 100%;
+}
+
+.container ul {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.container ul li {
+	flex-basis: 20%;
+    height: 10rem;
+    background-color: rgb(57, 60, 70);
+    list-style: none;
+    margin: 2rem;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+ 
+}
+
+.container ul li a {
+    text-decoration: none;
+    color: #fff;
+}
