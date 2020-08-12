@@ -4,5 +4,5 @@
 const selectElement = (element) => document.querySelector(element);
 
 selectElement('.nav-mobile-menu').addEventListener('click', () => {
-    selectElement('nav').classList.toggle('active');
+  selectElement('nav').classList.toggle('active');
 });

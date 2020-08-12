@@ -5,57 +5,85 @@ Author: Christopher Huber
 Author URI: https://www.ccahuber.com
 Date Created: 8/11/2020
 */
+
 /*===================================*/
 /* Variables */
 /*===================================*/
+
+$base-bg-color: #f1f1f1;
+
 /*===================================*/
 /* General Styles */
 /*===================================*/
+
 *,
 *::before,
 *::after {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 html {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  /* 1rem = 10px */
-  font-size: 62.5%;
+	box-sizing: border-box;
+	/* 1rem = 10px */
+	font-size: 62.5%;
 }
 
 body {
-  background-color: #f1f1f1;
-  font-family: roboto;
-  font-size: 1.6rem;
+	background-color: $base-bg-color;
+	font-family: roboto;
+	font-size: 1.6rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+}
+
+p {
+}
+
+a {
+}
+
+ul,
+ol {
+}
+
+li {
 }
 
 /*===================================*/
 /* Header and Main Navigation */
 /*===================================*/
+
+header {
+}
+
 .hero {
-  width: 100%;
-  text-align: center;
-  margin-top: 5rem;
+	width: 100%;
+	text-align: center;
+	margin-top: 5rem;
 }
 
 .hero h1 {
-  color: #333;
+	color: #333;
 }
 
 ion-icon {
-  font-size: 14px;
+	font-size: 14px;
 }
 
 /*===================================*/
 /* Utilities */
 /*===================================*/
+
 .nobullets {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
-/*# sourceMappingURL=styles.css.map */

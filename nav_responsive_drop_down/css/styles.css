@@ -1,5 +1,15 @@
+/*
+Theme Name: 
+Description: 
+Author: Christopher Huber
+Author URI: https://www.ccahuber.com
+Date Created: 8/11/2020
+*/
 /*===================================*/
 /* Variables */
+/*===================================*/
+/*===================================*/
+/* General Styles */
 /*===================================*/
 *,
 *::before,
@@ -21,24 +31,21 @@ body {
   font-size: 1.6rem;
 }
 
-.container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-}
-
-.container ul {
-  list-style-type: none;
+/*===================================*/
+/* Header and Main Navigation */
+/*===================================*/
+.hero {
+  width: 100%;
   text-align: center;
+  margin-top: 15rem;
 }
 
-.container li {
-  width: 100px;
-  height: 100px;
-  background-color: #ccc;
+.hero h1 {
+  color: #333;
+}
+
+ion-icon {
+  font-size: 14px;
 }
 
 /*===================================*/
